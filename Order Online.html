@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* table{
+            margin-top: 60px;
+            margin-left: 370px;
+        } */
+        td,th{
+            height: 30px;
+            /* z-index: 1; */
+        }
+        table{
+            border: solid white 6px;
+            border-collapse: collapse;
+
+        } 
+        th,tr,td{
+            border: 1px;
+            border-collapse: collapse;
+        }
+        button{ 
+        background-color: rgb(238, 107, 255);
+        color: rgb(14, 13, 11);
+        font-size: 16px;
+        border-radius: 13px;
+        cursor: pointer;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-bottom: 3px;
+        padding-top: 3px;
+    }
+    .txt{
+        color: rgb(183, 247, 237);
+        font-size: 20px;
+
+    }
+    .txt1{
+        color: rgb(44, 16, 1);
+        font-size: 21px;
+    }
+    .txt2{
+        color: rgb(255, 255, 255);
+        font-size: 19px;
+    }
+    .txt3{
+        color: rgb(255, 236, 200);
+        font-size: 19px;
+    }
+    .txt4{
+        color: rgb(255, 255, 255);
+        font-size: 19px;
+    }
+    .txt5{
+        color: rgb(0, 0, 0);
+        font-size: 19px;
+    }
+    /* .div1{
+        width: 1050px;
+    }
+    .div2{
+         width: 1050px; 
+        margin-left: 1050px;
+        margin-top: 60px;
+        position: absolute;
+    } */
+    .tr1{
+        height:70px;
+    }
+    .tr2{
+        height: 50px;
+    }
+    tr{
+        backdrop-filter: blur(4px);
+    }
+    .img{
+        /* background-image: url(coffee.jpg); */
+        height: 500px; width: 790px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* filter: blur(px);  */
+        /* -webkit-backdrop-filter: blur(5px); */
+        /* z-index: -1; */
+    }
+    .img3{
+        /* background-image: url(coffee.jpg); */
+        height: 700px; width: 790px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* filter: blur(px);  */
+        /* -webkit-backdrop-filter: blur(5px); */
+        /* z-index: -1; */
+    }
+    .img2{
+        /* background-image: url(coffee.jpg); */
+        height: 600px; width: 790px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* filter: blur(px);  */
+        /* -webkit-backdrop-filter: blur(5px); */
+        /* z-index: -1; */
+    }
+    .img4{
+        /* background-image: url(coffee.jpg); */
+        height: 400px; width: 790px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* filter: blur(px);  */
+        /* -webkit-backdrop-filter: blur(5px); */
+        /* z-index: -1; */
+    }
+    .btn {
+            color: black;
+            background-color: white;
+            border: rgb(0, 72, 72) 10px;
+            border-radius: 47px;
+            height: 50px;
+            width: 350px;
+            margin-top: 25px;
+            margin-bottom: 20px;
+            /* padding-bottom: 16px; */
+        }
+        h4{
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body style="background-image: linear-gradient(#1A120B,#331D2C,#3F2E3E,#A2678A,#A78295,#EFE1D1,#E5E5CB);">
+   <center><h1 style="color: white;"><u>Happy Meal..!!</u></h1></center>
+    <center><h3 style="color: white;">Enjoy the best food at home</h3></center>
+    <div class="div1">
+        
+    <center><table height="100%" width="790px" >
+        <tr class="tr1" style="backdrop-filter: blur(0px);">
+            <th><h3 style="color: white;">ITEM</h3></th>
+            <th><h3 style="color: white;">PRICE</h3></th>
+            <th><h3 style="color: white;">ADD TO CART</h3></th>
+        </tr>
+        <table style="background-image: url(coffee.jpg);" class="img txt2">
+        <tr><th colspan="3" class="txt1"><h4>COFFEE</h4>
+            <p class="txt1"><i>Keep Calm and drink Coffee..!!!</i></p>
+        </th></tr>
+        
+        <tr class="tr2 ">
+            <th class="txt2">Cafe Latte</th>
+            <th>100/-</th>
+            <th><button>Add to cart</button></th>
+        </tr>
+        <tr class="tr2">
+            <th class="txt2">Capuccino</th>
+            <th class="txt2">110/-</th>
+            <th><button>Add to cart</button></th>
+        </tr>
+        <tr class="tr2">
+            <th class="txt2">Espresso</th>
+            <th class="txt2">120/-</th>
+            <th><button>Add to cart</button></th>
+        </tr>
+        <tr class="tr2">
+            <th class="txt2">Iced Mocha</th>
+            <th class="txt2">130/-</th>
+            <th><button>Add to cart</button></th>
+        </tr>
+        <tr class="tr2">
+            <th>Cafe Mocha</th>
+            <th class="txt2">130/-</th>
+            <th><button>Add to cart</button></th>
+        </tr>
+        <tr class="tr2">
+            <th>Americano</th>
+            <th>140/-</th>
+            <th><button>Add to cart</button></th>
+        </tr>
+        <tr class="tr2">
+            <th>Caramel Machalato</th>
+            <th>150/-</th>
+            <th><button>Add to cart</button></th>
+        </tr>
+        </table>
+        <table style="background-image: url(tea.webp);" class="img txt3">
+        <tr><th colspan="3"><h4>TEA</h4><p><i>Keep Calm and drink Tea..!!!</i></p></th></tr>
+        <tr class="tr2">
+            <th>Masala Tea</th>
+            <th>50/-</th>
+            <th><button>Add to cart</button></th>
+        </tr>
+        <tr class="tr2">
+            <th>Ginger Tea</th>
+            <th>60/-</th>
+            <th><button>Add to cart</button></th>
+        </tr>
+        <tr class="tr2">
+            <th>Green Tea</th>
+            <th>60/-</th>
+            <th><button>Add to cart</button></th>
+        </tr>
+        
+        <tr class="tr2">
+            <th>Lemon Tea</th>
+            <th>60/-</th>
+            <th><button>Add to cart</button></th>
+        </tr>
+        <tr class="tr2">
+            <th>Lotus Tea</th>
+            <th>80/-</th>
+            <th><button>Add to cart</button></th>
+        </tr>
+        </table>
+        <table style="background-image: url(mojitos.jpg);" class="img3 txt4">
+        <tr><th colspan="3"><h4>MOJITO</h4><p><i>Keep Calm and drink Mojito..!!!</i></p></th></tr>
+        <tr class="tr2">
+            <th>Virgen Mojito</th>
+            <th>200/-</th>
+            <th><button>Add to cart</button></th>
+        </tr>
+        <tr class="tr2">
+            <th>Grapes Mojito</th>
+            <th>200/-</th>
+            <th><button>Add to cart</button></th>
+        </tr>
+        <tr class="tr2">
+            <th>Green Apple Mojito</th>
+            <th>200/-</th>
+            <th><button>Add to cart</button></th>
+        </tr>
+        <tr class="tr2">
+            <th>Strawberry Mojito</th>
+            <th>220/-</th>
+            <th><button>Add to cart</button></th>
+        </tr>
+        <tr class="tr2">
+            <th>Cucumber Mojito</th>
+            <th>220/-</th>
+            <th><button>Add to cart</button></th>
+        </tr>
+        <tr class="tr2">
+            <th>Kiwi Mojito</th>
+            <th>240/-</th>
+            <th><button>Add to cart</button></th>
+        </tr>
+        <tr class="tr2">
+            <th>Pineapple Mojito</th>
+            <th>240/-</th>
+            <th><button>Add to cart</button></th>
+        </tr>
+        <tr class="tr2">
+            <th>WaterMelon Mojito</th>
+            <th>240/-</th>
+            <th><button>Add to cart</button></th>
+        </tr></table>
+        <table style="background-image: url(juice.jpg);" class="img txt5">
+        <tr><th colspan="3"><h4>Juice</h4><p><i>Keep Calm and drink Juice..!!!</i></p></th></tr>
+        <tr class="tr2">
+            <th>Apple Juice</th>
+            <th>100/-</th>
+            <th><button>Add to cart</button></th>
+        </tr>
+        <tr class="tr2">
+            <th>Pineapple Juice</th>
+            <th>110/-</th>
+            <th><button>Add to cart</button></th>
+        </tr>
+        <tr class="tr2">
+            <th>Litchi Juice</th>
+            <th>120/-</th>
+            <th><button>Add to cart</button></th>
+        </tr>
+        <tr class="tr2">
+            <th>Mixed Fruit Juice</th>
+            <th>120/-</th>
+            <th><button>Add to cart</button></th>
+        </tr>
+        <tr class="tr2">
+            <th>WaterMelon Juice</th>
+            <th>130/-</th>
+            <th><button>Add to cart</button></th>
+        </tr></table>
+        <table style="background-image: url(shakes.jpg);" class="img2 txt">
+        <tr><th colspan="3"><h4>Shakes</h4><p><i>Keep Calm and drink Shakes..!!!</i></p></th></tr>
+        <tr class="tr2">
+            <th>Mango Shake</th>
+            <th>130/-</th>
+            <th><button>Add to cart</button></th>
+        </tr>
+        <tr class="tr2">
+            <th>Banana Shake</th>
+            <th>130/-</th>
+            <th><button>Add to cart</button></th>
+        </tr>
+        <tr class="tr2">
+            <th>Strawberry Shake</th>
+            <th>140/-</th>
+            <th><button>Add to cart</button></th>
+        </tr>
+        <tr class="tr2">
+            <th>Chocolate Shake</th>
+            <th>140/-</th>
+            <th><button>Add to cart</button></th>
+        </tr>
+        <tr class="tr2">
+            <th>Oreo Shake</th>
+            <th>160/-</th>
+            <th><button>Add to cart</button></th>
+        </tr>
+        <tr class="tr2">
+            <th>Kit-Kat Shake</th>
+            <th>160/-</th>
+            <th><button>Add to cart</button></th>
+        </tr>
+        <tr class="tr2">
+            <th>Ice-Cream Shake</th>
+            <th>160/-</th>
+            <th><button>Add to cart</button></th>
+        </tr></table>
+        <table style="background-image: url(soup.jpg);" class="img4 txt2">
+        <tr><th colspan="3"><h4>Soup</h4><p><i>Keep Calm and drink Soup..!!!</i></p></th></tr>
+        <tr class="tr2">
+            <th>Tomato Soup</th>
+            <th>150/-</th>
+            <th><button>Add to cart</button></th>
+        </tr>
+        <tr class="tr2">
+            <th>Vegetable Soup</th>
+            <th>160/-</th>
+            <th><button>Add to cart</button></th>
+        </tr>
+        <tr class="tr2">
+            <th>Hot 'n' Sour Soup</th>
+            <th>170/-</th>
+            <th><button>Add to cart</button></th>
+        </tr>
+        <tr class="tr2">
+            <th>Manchow Soup</th>
+            <th>180/-</th>
+            <th><button>Add to cart</button></th>
+        </tr></table>
+    </table></center>
+</div>
+<center>
+    <button class="btn"><p style="color: white;"><a href="Website.html" style="color: black; size: 15px;">  Click here to go back to Home-page  </a></p></button>&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn" style="width: 280px;"><p style="color: white;"><a href="Login.html" style="color: black; size: 15px;">  Click here to Log in  </a></p></button><br>
+</center>
+    <!-- <div class="div2">
+    <table width="500px">
+        <tr class="tr2">
+            <th>Vegetable Soup</th>
+            <th>160/-</th>
+            <th><button>Add to cart</button></th>
+        </tr>
+        <tr class="tr2">
+            <th>Hot 'n' Sour Soup</th>
+            <th>170/-</th>
+            <th><button>Add to cart</button></th>
+        </tr>
+        <tr class="tr2">
+            <th>Manchow Soup</th>
+            <th>180/-</th>
+            <th><button>Add to cart</button></th>
+        </tr>
+
+    </table>
+</div> -->
+</body>
+</html>
